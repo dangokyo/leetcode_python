@@ -6,7 +6,6 @@ class Solution:
 		length = len(nums);
 		if(length == 0):
 			return 0;
-			
 		if(target <= nums[0]):
 			return 0;
 		if(target == nums[length-1]):
